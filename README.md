@@ -1,5 +1,6 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis-CI Build Status](https://travis-ci.org/CannaData/shinyCAPTCHA.svg?branch=master)](https://travis-ci.org/CannaData/shinyCAPTCHA) <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 shinyCAPTCHA
 ============
 
@@ -17,6 +18,8 @@ devtools::install_github("CannaData/shinyCAPTCHA")
 
 Example
 -------
+
+You can view example [here](https://carlganz.shinyapps.io/shinyCAPTCHAdemo/)
 
 ``` r
 library(shiny)

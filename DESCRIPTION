@@ -1,0 +1,13 @@
+Package: shinyCAPTCHA
+Title: Use 'reCAPTCHA' in 'Shiny'
+Version: 0.0.1
+Authors@R: c(
+  person("Carl", "Ganz", email = "carl@cannadatasolutions", role = c("aut", "cre")),
+  person("CannaData Solutions", role = "cph")
+  )
+Description: 'Shiny' modules including 'reCAPTCHA'. This helps prevent computers from spamming online forms.
+Imports: httr, jsonlite, shiny, htmltools
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

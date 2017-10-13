@@ -19,11 +19,12 @@ recaptchaUI <- function(id, sitekey = Sys.getenv("recaptcha_sitekey")) {
       }"
     )),
     tags$form(
+      class = "shinyCAPTCHA-form",
       action = "?",
       method = "POST",
       tags$div(class = "g-recaptcha", `data-sitekey` = sitekey, `data-callback` = I("shinyCaptcha")),
       tags$br(),
-      tags$input(type = "submit")
+      tags$input(type = "submit", ...)
     )
   ))
 }

@@ -4,7 +4,7 @@
 #' @param sitekey Google sitekey code for reCAPTCHA
 #' @import htmltools
 #' @importFrom shiny NS
-recaptchaUI <- function(id, sitekey = Sys.getenv("recaptcha_sitekey")) {
+recaptchaUI <- function(id, sitekey = Sys.getenv("recaptcha_sitekey"), ...) {
   ns <- NS(id)
   
   tagList(tags$div(

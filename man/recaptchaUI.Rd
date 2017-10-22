@@ -4,7 +4,7 @@
 \alias{recaptchaUI}
 \title{Client-side module component}
 \usage{
-recaptchaUI(id, sitekey = Sys.getenv("recaptcha_sitekey"))
+recaptchaUI(id, sitekey = Sys.getenv("recaptcha_sitekey"), ...)
 }
 \arguments{
 \item{id}{unique id for module}

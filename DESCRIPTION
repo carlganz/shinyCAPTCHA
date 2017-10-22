@@ -7,6 +7,7 @@ Authors@R: c(
   )
 Description: 'Shiny' modules including 'reCAPTCHA'. This helps prevent computers from spamming online forms.
 Imports: httr, jsonlite, shiny, htmltools
+Suggests: drat
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

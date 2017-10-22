@@ -10,6 +10,8 @@ recaptchaUI(id, sitekey = Sys.getenv("recaptcha_sitekey"), ...)
 \item{id}{unique id for module}
 
 \item{sitekey}{Google sitekey code for reCAPTCHA}
+
+\item{...}{values passed onto input}
 }
 \description{
 Client-side module component

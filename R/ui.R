@@ -2,6 +2,7 @@
 #' @export
 #' @param id unique id for module
 #' @param sitekey Google sitekey code for reCAPTCHA
+#' @param ... values passed onto input
 #' @import htmltools
 #' @importFrom shiny NS
 recaptchaUI <- function(id, sitekey = Sys.getenv("recaptcha_sitekey"), ...) {
